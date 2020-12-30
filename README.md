@@ -1,5 +1,5 @@
 # express_mongodb_restAPI
-An express mongodb API
+An express mongodb API that returns questions that fall beneath a hierarchical topic tree.
 
 
 To run:
@@ -9,7 +9,7 @@ To run:
 4. Run app.js
 
 
-#Demo: To query database
+## Demo: To query database
 Send Get request to : http://13.229.100.17:8001/search?q="search_parameter" where "search_parameter" is the topic you would like to query. 
 
 Example: http://13.229.100.17:8001/search?q="Ribosomes"
