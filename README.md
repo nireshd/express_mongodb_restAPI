@@ -5,7 +5,7 @@ An express mongodb API that returns questions that fall beneath a hierarchical t
 To run:
 1. `npm install`
 2. `npm install -S express mongoose body-parser`
-3. Change the databaseURI link in line 3 of `config.js` file
+3. Change the databaseURI link in line 3 of `db.js` in `/config`
 4. Run app.js
 
 
