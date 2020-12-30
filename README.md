@@ -10,9 +10,9 @@ To run:
 
 
 ## Demo: To query database
-Send Get request to : http://13.229.100.17:8001/search?q="search_parameter" where "search_parameter" is the topic you would like to query. 
+Send Get request to : 13.229.100.17:8001/search?q="search_parameter" where "search_parameter" is the topic you would like to query. 
 
-Example: http://13.229.100.17:8001/search?q="Ribosomes"
+Example: 13.229.100.17:8001/search?q="Ribosomes"
 
 Output is an array of questions that fall below "Ribosomes" in the database. 
 
