@@ -1,7 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 
-const annotationController = require("./controllers/AnnotationController");
 const topicController = require("./controllers/TopicController");
 
 
