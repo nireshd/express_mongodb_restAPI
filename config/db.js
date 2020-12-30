@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const dbURI = 'mongodb+srv://user0:user88@cluster0.j72dr.mongodb.net/pencil_backenddb?retryWrites=true&w=majority';
+const dbURI = '<XXXXX>';
 const options = {
     reconnectTries: Number.MAX_VALUE,
     poolSize: 10
