@@ -14,5 +14,5 @@ Send Get request to : http://13.229.100.17:8001/search?q="search_parameter" wher
 
 Example: http://13.229.100.17:8001/search?q="Ribosomes"
 
-Output return is a list of questions that fall below "Ribosomes" in the database. 
+Output is an array of questions that fall below "Ribosomes" in the database. 
 
