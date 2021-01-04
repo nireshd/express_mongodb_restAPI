@@ -8,11 +8,13 @@ const TopicsSchema = new Schema({
         type: String,
         required: true,
     },
-    question_number : {
-        type: [{
+    annotations: [{
+        type: String
+    }],
+
+    question_numbers: [{
             type: Number
-        }],
-    },
+    }],
 });
 
 
