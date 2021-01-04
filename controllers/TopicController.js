@@ -6,7 +6,10 @@ exports.readTopics = (req, res) => {
         if (err) {
             res.status(500).send(err);
         }
-        res.status(200).json(result[0]["question_number"]);
+        try { res.status(200).json(result[0]["question_numbers"]); }
+        catch (err) { res.status(200).json({"Empty String Returned":"No results found"})}
     });
 };
+
+
 
