@@ -21,4 +21,4 @@ and: http://13.212.160.201:8001/search?q=Biological%20Molecules for 'topic Biolo
 Output is an array of questions that fall below 'Biological Molecules' in the database. 
 
 ## Model: Embedded
-The model used for topics and annotations can be found in `/models/Topic.js`. Topics are grouped with all child topics listed as `annotations` and all relevant questions listed as `question_numbers`. 
+The model used for topics and annotations can be found in `/models/Topic.js`. Topics are grouped with all child topics listed as `annotations` and all relevant questions listed as `question_numbers`. This makes for a horizontally scalable solution which utilizes MongoDBs utilities better for large topics trees with plenty of children nodes. 
