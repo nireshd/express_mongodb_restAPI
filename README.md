@@ -10,9 +10,9 @@ To run:
 
 
 ## Demo: To query database
-Send Get request to : http://13.212.160.201:8001/search?q="search_parameter" where "search_parameter" is the topic you would like to query. An array of corresponding question numbers will be returned.
+Send Get request to : http://13.212.160.201:8001/search?q=search_parameter where "search_parameter" is the topic you would like to query. An array of corresponding question numbers will be returned.
 
-Example: http://13.212.160.201:8001/search?q="Ribosomes"
+Example: http://13.212.160.201:8001/search?q=Ribosomes
 
 Output is an array of questions that fall below "Ribosomes" in the database. 
 
