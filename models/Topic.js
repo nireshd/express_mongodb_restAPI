@@ -8,15 +8,10 @@ const TopicsSchema = new Schema({
         type: String,
         required: true,
     },
-    annotations: [{
+    _id: [{
         type: String
     }],
 
-    question_numbers: [{
-            type: Number
-    }],
 });
-
-
 
 module.exports = mongoose.model("Topic", TopicsSchema);
