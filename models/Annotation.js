@@ -1,8 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-
-
 const AnnotationSchema = new Schema({
     annotation: {
         type: String,
@@ -14,7 +12,5 @@ const AnnotationSchema = new Schema({
         }],
     },
 });
-
-
 
 module.exports = mongoose.model("Annotation", AnnotationSchema);
